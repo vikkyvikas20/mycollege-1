@@ -1,0 +1,55 @@
+#Config
+#open git bash or git folder on vscode
+
+$git config --global user.name "your_name"
+$git config --global user.email "your_email@example.com"
+
+#you can clone project or you can create new proj in vscode
+#for clone proj
+
+$git clone <https path of your repository>
+
+#if you are creating new proj in vscode
+$git init
+
+#add files to staging before commit
+$git add . 
+#which adds all changes made in project folder to stage
+$git add <filename>
+#which adds given file to stage
+
+
+#to save 
+$git commit -m "Description of commit"
+
+#push operation from local systm to required repository in GitHub
+$git push origin
+
+#pull operation if any changes made in GitHub repository
+$git pull origin
+
+
+#Branching
+#To create a Branch
+$git branch branch_name
+#to switch to required branch
+$git checkout branch_name
+#To view available branches 
+$git branch
+#To delete required branch
+$git branch -d branch_name
+
+#to push particular branch to GitHub
+$git push -u origin branch_name
+
+
+#to get the status of your local repository
+$git status
+
+
+
+
+
+
+
+ 
